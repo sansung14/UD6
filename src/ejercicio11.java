@@ -9,7 +9,8 @@ public class ejercicio11 {
 		int lista[];
 		int lista2[];
 		lista = Meter(posiciones);
-		lista2 = Meter(posiciones);
+		lista2 = lista;		
+		lista = Meter(posiciones);
 		Mostrar(lista, lista2, posiciones);
 	    
 	}
